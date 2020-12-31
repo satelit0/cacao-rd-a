@@ -1,0 +1,42 @@
+<header id="header" class="fixed-top">
+  <div class="container">
+
+    <div class="logo float-left">
+      <a href="index.html"><img src="assets/img/Logo-cacao-rd.png" alt="" class="img-fluid" id="logo-cacao-menu"></a>
+    </div>
+
+    <nav class="main-nav float-right d-none d-lg-block">
+      <ul>
+        <li class="drop-down active"><a [routerLink]="['/intro']" [routerLinkActive]="['linkActive']">INICIO</a>
+          <ul>
+            <li><a [routerLink]= '"."' fragment="main" [routerLinkActive]="['linkActive']">QUIENES SOMOS</a></li>
+            <li><a >MARCAS EMBLEMÁTICAS</a></li>
+            <li><a href="#portfolio">COMERCIOS E INDUSTRIAS</a></li>
+            <li><a href="#team">PERSONALIDADES</a></li>
+
+            <li class="drop-down"><a href="#">ESTADÍSTICAS</a>
+              <ul>
+                <li><a href="#history">PRODUCCÍON</a></li>
+                <li><a href="#">EXPORTACÍON</a></li>
+                <li><a href="#">BOLETIN</a></li>
+              </ul>
+          </ul>
+        </li>
+
+        <li><a href="#rd_es">RD ES</a></li>
+        <li><a href="#about">INVENTARIO OFERTA</a></li>
+        <li><a href="#portfolio">DIRECTORIO</a></li>
+        <li class="drop-down"><a [routerLink]="['/price']" [routerLinkActive]="['linkActive']">PRECIO</a>
+          <ul>
+            <li><a href="#services">CACACO</a></li>
+            <li><a href="#cotization_dolar">COTIZACÍON DEL DOLAR</a></li>
+            <li><a href="#">Drop Down 4</a></li>
+            <li><a href="#">Drop Down 5</a></li>
+          </ul>
+        </li>
+        <li><a href="#contact">CONTACTENOS</a></li>
+      </ul>
+    </nav>
+    <!-- .main-nav -->
+  </div>
+</header>
